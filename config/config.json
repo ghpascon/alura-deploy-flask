@@ -2,7 +2,7 @@
     "SGBD":"mysql+mysqlconnector",
     "usuario":"root",
     "senha":"admin",
-    "host":"localhost",
+    "host":"34.170.88.50",
     "db_name":"mlops",
     "secret":"secret"
 }
