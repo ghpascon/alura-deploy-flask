@@ -1,0 +1,13 @@
+sudo apt-get update
+sudo apt-get install git-all
+
+git clone https://github.com/ghpascon/alura-deploy-flask.git
+ls
+cd alura-deploy-flask
+sudo apt-get install python3-pip
+sudo apt-get install python3-venv
+sudo python3 -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+python main.py
